@@ -2,9 +2,10 @@
 <br>
 <br>
 This is an “R” base application for tremor analysis. Before using it, you need to install "R" and "rstudio" in your PC
-<br>
+
 <br>
 Then open Rstudio and run the following code (this is to install the packages, only need to be done the first time):
+<br>
 <br>
 install.packages("ggplot2")
 <br>
@@ -23,7 +24,7 @@ install.packages("markdown")
 install.packages("fftw")
 <br>
 install.packages("pracma")
-
+<br>
 <br>
 Open and run app.R
 
@@ -86,6 +87,12 @@ The spectrogram of each channel is obtained by calculating the FFT on approximat
 
 felipevialu@gmail.com
 <br>
+<br>
 Please cite: https://doi.org/10.1016/j.cnp.2019.11.004
+<br>
+<br>
+This code is not intended for comercial use
+
+
 
 
