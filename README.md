@@ -3,6 +3,21 @@
 <br>
 This is an “R” base application for tremor analysis. Before using it, you need to install "R" and "rstudio" in your PC
 <br>
+Then open Rstudio and run the following code (this is to install the packages, only need to be done the first time):
+
+install.packages("ggplot2")
+install.packages("gridExtra")
+install.packages("shiny")
+install.packages("plotly")
+install.packages("signal")
+install.packages("seewave")
+install.packages("markdown")
+install.packages("fftw")
+install.packages("pracma")
+<br>
+Open and run app.R
+
+<br>
 This application is designed to read 6 channels (2 accelerometers (ACC) and 4 EMG). Once the data is acquired (in another system), it must be transformed into a text file with each channel represented in a separate column and separated by a space before it can be uploaded by Tremoroton (most softwares for data acquisition have the option to export data as .txt).
 <br>
 For a detailed explanation of the parameters used here and how to interpret the results from this application, refer to: 
