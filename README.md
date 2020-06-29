@@ -3,17 +3,27 @@
 <br>
 This is an “R” base application for tremor analysis. Before using it, you need to install "R" and "rstudio" in your PC
 <br>
+<br>
 Then open Rstudio and run the following code (this is to install the packages, only need to be done the first time):
-
+<br>
 install.packages("ggplot2")
+<br>
 install.packages("gridExtra")
+<br>
 install.packages("shiny")
+<br>
 install.packages("plotly")
+<br>
 install.packages("signal")
+<br>
 install.packages("seewave")
+<br>
 install.packages("markdown")
+<br>
 install.packages("fftw")
+<br>
 install.packages("pracma")
+
 <br>
 Open and run app.R
 
